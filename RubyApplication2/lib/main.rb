@@ -28,7 +28,6 @@ class Proyecto < JFrame
     panel.setLayout nil 
     panel.setToolTipText "Panel Contenedor"
     
-    l = JLabel.new 'Hola mundo desde JRuby'
     
     exit_button = JButton.new "Salir"
     exit_button.setBounds 400, 350, 100, 30
@@ -90,7 +89,7 @@ class Proyecto < JFrame
     panel.add plant_button
     panel.add cd_button
     panel.add item_button
-    panel.add l
+
     
  #configuracion principal
     self.setDefaultCloseOperation JFrame::EXIT_ON_CLOSE
